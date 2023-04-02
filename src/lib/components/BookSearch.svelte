@@ -23,7 +23,7 @@
 
 <div class="container">
   <input bind:value={query} on:input={handleChange} />
-  <ul>
+  <ul class:empty={!results.length}>
     {#each results as result}
       <li>
         <img
@@ -66,6 +66,9 @@
     border-radius: 0 0 4px 4px;
     max-height: 320px;
     overflow: scroll;
+  }
+  ul.empty {
+    border: none;
   }
   li {
     padding: 4px;
