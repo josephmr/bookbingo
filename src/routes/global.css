@@ -1,5 +1,8 @@
 body {
-  --main-background-color: #feeeee;
+  --main-background-color: #fff;
+
+  --primary-text-color: #000;
+  --secondary-text-color: #232323;
 }
 
 body {

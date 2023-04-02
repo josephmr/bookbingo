@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   let cells = Array.from({ length: 25 });
 </script>
 
@@ -25,7 +25,7 @@
     border-radius: 5px;
   }
   .cell:before {
-    content: '';
+    content: "";
     display: block;
   }
 </style>
